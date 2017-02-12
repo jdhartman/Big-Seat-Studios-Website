@@ -1,0 +1,21 @@
+@font-face
+{
+font-family: AvenirHand;
+src: url('AvenirHand.ttf'),
+url('AvenirHand.eot'),
+url('AvenirHand.woff');
+
+}
+
+li {
+	display: inline;
+	padding: 50px;	
+	background-color: blue;
+}
+
+.menu {
+	font-family: AvenirHand, Times;
+	width: 100%;
+	text-align: center;
+	font-size: 2.5rem;
+}
