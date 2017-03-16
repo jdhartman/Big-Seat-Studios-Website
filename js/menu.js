@@ -1,6 +1,5 @@
 $(document).ready(function() {
     $('.menu').scrollToFixed({
-    	marginTop: 30
+    	 marginTop: 10 
     });
-
 });

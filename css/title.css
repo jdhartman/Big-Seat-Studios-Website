@@ -1,6 +1,36 @@
-.title {
-	font-family: AvenirHand, Times;
-	width: 100%;
+.head #title {
+  font-family: AvenirHand, Times;
+  width: 100%;
+  text-align: center;
+  font-size: 10.5rem;
+  height: 300px;
+}
+
+.head #social {
+	margin: 0 auto;
 	text-align: center;
-	font-size: 10.5rem;
+	padding-right: 60px;
+}
+
+.head ul {
+	width: 100%;
+}
+
+.head li {
+	display: inline-block;
+}
+
+.head #twitter{
+	zoom: 10%;
+	padding: 40px;
+}
+
+.head #instagram {
+	zoom: 8%;
+	padding: 40px;
+}
+
+.head #facebook {
+	zoom: 4%;
+	padding: 40px;
 }
