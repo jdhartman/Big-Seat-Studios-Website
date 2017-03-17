@@ -1,7 +1,17 @@
+@media screen and (min-width: 1400px) {
+	.about {
+		font-size: 2.5rem;	
+	}
+}
+@media screen and (max-width: 1400px) {
+	.about {
+		font-size: calc(15px + 1.5vw);
+	}
+}
+
 .about {
 	font-family: AvenirHand;
 	width: 70%;
 	text-align: center;
 	padding-left: 15%;
-	font-size: 2.5rem;
 }

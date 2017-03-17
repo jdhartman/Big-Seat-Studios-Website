@@ -10,6 +10,7 @@ url('AvenirHand.woff');
 .menu li {
   display: inline;
   padding: 20px;
+  padding-bottom: 30px;
   width: 100%;  
   background-color: blue;
 }
