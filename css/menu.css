@@ -7,15 +7,18 @@ url('AvenirHand.woff');
 
 }
 
-li {
-	display: inline;
-	padding: 50px;	
-	background-color: blue;
+.menu li {
+  display: inline;
+  padding: 20px;
+  padding-bottom: 30px;
+  width: 100%;  
+  background-color: blue;
 }
 
 .menu {
-	font-family: AvenirHand, Times;
-	width: 100%;
-	text-align: center;
-	font-size: 2.5rem;
+  font-family: AvenirHand, Times;
+  width: 100%;
+  text-align: center;
+  font-size: 2.5rem;
+  overflow: auto;
 }

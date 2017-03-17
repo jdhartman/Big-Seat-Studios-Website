@@ -1,0 +1,11 @@
+.downloads {
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+.downloads li {
+	display: inline;
+	width: 100%;
+	
+}
