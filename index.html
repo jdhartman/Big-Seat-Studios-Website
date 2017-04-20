@@ -11,7 +11,7 @@
 	<link href="css/about.css" rel="stylesheet" type="text/css">
 	<link href="css/menu.css" rel="stylesheet" type="text/css">
 	<link href="css/games.css" rel="stylesheet" type="text/css">
-	<link href="css/downloads.css" rel="stylesheet" type="text/css">
+	s
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="http://bigspotteddog.github.io/ScrollToFixed/jquery-scrolltofixed-min.js"></script>
@@ -20,6 +20,8 @@
 </head>
 
 <body>
+<div class="chair"><img src="GIMP/Chair.png"></div>
+<div class="site">
 	<div class="head">
 		<div id="title">Big Seat Studios</div>
 		<div id=social>
@@ -49,31 +51,33 @@
 		</ul>
 	</div>
 
-<div class="about"> 
-	Big Seat Studios was founded in December of 2015. Since then, we have been a development team of two. We have started our company with the passion to make games that we would play. Our goal is to create engaging experiences for our fans and a sense of personality within our games.  While we are not a big, fancy game studio (our name can be a little misleading), we know what we like in games and we put our heart and soul into the products we make.
-</div>
-<div class="slideshow-container">
-	<div class="mySlides fade">
-		<img src="GIMP/Bone-Fetcher-3000.png" style="width: 100%">
+	<div class="about"> 
+		Big Seat Studios was founded in December of 2015. Since then, we have been a development team of two. We have started our company with the passion to make games that we would play. Our goal is to create engaging experiences for our fans and a sense of personality within our games.  While we are not a big, fancy game studio (our name can be a little misleading), we know what we like in games and we put our heart and soul into the products we make.
 	</div>
-	<div class="mySlides fade">
-		<img src="GIMP/Chicken-Hero.png" style="width: 100%">
+	<div class="slideshow-container">
+		<div class="mySlides CH">
+			<img src="GIMP/Chicken-Hero.png" style="width: 100%">
+		</div>
+		<div class="mySlides DP">
+			<img src="GIMP/DP-Corgi.gif" style="z-index: 0; position: absolute;">
+			<img src="GIMP/DP-Buttefly.gif" style="z-index: 1; position: absolute;" id="Butterfly1">
+			<img src="GIMP/DP-Buttefly.gif" style="z-index: 2; position: absolute;" id="Butterfly2">
+			<img src="GIMP/DP-Buttefly.gif" style="z-index: 3; position: absolute;" id="Butterfly3">
+			<img src="GIMP/DP-Buttefly.gif" style="z-index: 4; position: absolute;" id="Butterfly4">
+		</div>
+		<a class="prev" onclick="plusDivs(-1)">&larr;</a>
+		<a class="next" onclick="plusDivs(+1)">&rarr;</a>
 	</div>
-	<div class="mySlides fade">
-		<img src="GIMP/DP-Corgi.gif" style="width: 100%">
+	<div class="downloads"> 
+		<ul>
+			<li>
+				<iframe frameborder="0" src="https://itch.io/embed/115982" width="552" height="167"></iframe>
+			</li>
+			<li>
+				<iframe frameborder="0" src="https://itch.io/embed/78210" width="552" height="167"></iframe>
+			</li>
+		</ul>
 	</div>
-	<a class="prev" onclick="plusDivs(-1)">&larr;</a>
-	<a class="next" onclick="plusDivs(+1)">&rarr;</a>
-</div>
-<div class="downloads"> 
-	<ul>
-		<li>
-			<iframe frameborder="0" src="https://itch.io/embed/115982" width="552" height="167"></iframe>
-		</li>
-		<li>
-			<iframe frameborder="0" src="https://itch.io/embed/78210" width="552" height="167"></iframe>
-		</li>
-	</ul>
 </div>
 
 
