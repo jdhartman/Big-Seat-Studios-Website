@@ -1,9 +1,18 @@
 @font-face
 {
-font-family: AvenirHand;
-src: url('AvenirHand.ttf'),
-url('AvenirHand.eot'),
-url('AvenirHand.woff');
+font-family: Gorditas-Regular;
+src: url('Gorditas-Regular.ttf'),
+url('Gorditas-Regular.eot'),
+url('Gorditas-Regular');
+
+}
+
+@font-face
+{
+font-family: Gorditas-Bold;
+src: url('Gorditas-Bold.ttf'),
+url('Gorditas-Bold.eot'),
+url('Gorditas-Bold');
 
 }
 
@@ -12,13 +21,17 @@ url('AvenirHand.woff');
   padding: 20px;
   padding-bottom: 30px;
   width: 100%;  
-  background-color: blue;
+  color: white;
 }
 
 .menu {
-  font-family: AvenirHand, Times;
+  font-family: Gorditas-Bold, Times;
+  -webkit-text-stroke: 2px black;
   width: 100%;
   text-align: center;
   font-size: 2.5rem;
   overflow: auto;
+  position: sticky;
+  background-color: blueviolet;
+  top: 0;
 }

@@ -8,40 +8,33 @@
 		font-size: 12vw;
 	}
 }
-	.head #title {
-		font-family: AvenirHand, Times;
-	  text-align: center;
-	  margin: 0 auto;
-	  min-width: 100px;
-	  height: auto;
-	  min-height: 200px;
-	}
 
-	.head #social {
-		margin: 0 auto;
-		text-align: center;
-		padding-right: 60px;
-	}
+.head #big-seat {
+	text-align: center;
+	margin: 0 auto;
+}
 
-	.head ul {
-		width: 100%;
-	}
+.head #title {
+	font-family: AvenirHand, Times;
+	text-align: center;
+	margin: 0 auto;
+	min-width: 100px;
+	height: auto;
+	min-height: 200px;
+}
 
-	.head li {
-		display: inline-block;
-	}
+.head #social {
+	margin: 0 auto;
+	text-align: center;
+	padding-right: 60px;
+	
+}
 
-	.head #twitter{
-		zoom: 10%;
-		padding: 40px;
-	}
+.head ul {
+	width: 100%;
+}
 
-	.head #instagram {
-		zoom: 8%;
-		padding: 40px;
-	}
-
-	.head #facebook {
-		zoom: 4%;
-		padding: 40px;
-	}
+.head li {
+	display: inline-block;
+	padding: 20px;
+}
