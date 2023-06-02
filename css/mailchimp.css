@@ -2,7 +2,7 @@
     background:#fff; 
     text-align: center;
     font-family: Gorditas-Bold, Times;
-    width: 100%;
+    max-width: 600px;
 }
 
 #mc_embed_signup input {
