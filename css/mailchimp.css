@@ -1,0 +1,16 @@
+#mc_embed_signup {
+    background:#fff; 
+    text-align: center;
+    font-family: Gorditas-Bold, Times;
+    width: 100%;
+}
+
+#mc_embed_signup input {
+    font-family: Gorditas-Bold, Times;
+    font-size: medium;
+    border-radius: 4px;
+}
+
+#mc-embedded-subscribe {
+    padding: 12px 28px;
+}
