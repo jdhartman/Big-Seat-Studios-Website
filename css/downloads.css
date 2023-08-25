@@ -9,3 +9,15 @@
 	width: 100%;
 	
 }
+
+.beargifs {
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+.beargifs li {
+	display: inline-block;
+	width: 100%;
+	
+}

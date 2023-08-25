@@ -22,19 +22,3 @@
 	height: auto;
 	min-height: 200px;
 }
-
-.head #social {
-	margin: 0 auto;
-	text-align: center;
-	padding-right: 60px;
-	
-}
-
-.head ul {
-	width: 100%;
-}
-
-.head li {
-	display: inline-block;
-	padding: 20px;
-}

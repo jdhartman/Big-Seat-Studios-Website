@@ -16,11 +16,25 @@ url('Gorditas-Bold');
 
 }
 
+* {
+	font-family: Gorditas-Regular;
+}
+
+.menu #social {
+	margin: 0 auto;
+	/* padding-right: 60px; */
+	
+}
+
+.menu ul {
+  text-align: center;
+  margin: 0 auto;
+}
+
 .menu li {
-  display: inline;
-  padding: 20px;
-  padding-bottom: 30px;
-  width: 100%;  
+	display: inline-block;
+	padding-left: 20px;
+  padding-right: 20px;
   color: white;
 }
 
