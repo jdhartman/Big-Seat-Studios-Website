@@ -23,19 +23,31 @@ url('Gorditas-Bold');
 .menu #social {
 	margin: 0 auto;
 	/* padding-right: 60px; */
-	
 }
 
 .menu ul {
   text-align: center;
   margin: 0 auto;
+  display: inline-block;
+  list-style: none;
+}
+
+.menu ul li {
+  display: block;
+  position: relative;
+  float: left;
+  text-align: center;
+}
+
+.menu-social {
+  padding-top: 20px;
 }
 
 .menu li {
-	display: inline-block;
 	padding-left: 20px;
   padding-right: 20px;
   color: white;
+  height: 100px;
 }
 
 .menu {
@@ -44,7 +56,6 @@ url('Gorditas-Bold');
   width: 100%;
   text-align: center;
   font-size: 2.5rem;
-  overflow: auto;
   position: sticky;
   background-color: #9678A9;
   top: 0;
